@@ -1,20 +1,13 @@
 {
   "scripts": {
-    "start": "parcel serve src/index.html --open --no-cache",
-    "init":"biome init",
-    "fix": "biome check --apply-unsafe ./src"
-  },
-  "dependencies": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "ts-node": "10.9.2"
+    "lint": "eslint ./src"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.6.3",
+    "@eslint/js": "^8.57.0",
     "@types/node": "20.11.30",
-    "@types/react": "18.2.73",
-    "@types/react-dom": "18.2.23",
-    "parcel": "^2.12.0",
-    "typescript": "5.4.3"
+    "eslint": "^8.57.0",
+    "ts-node": "10.9.2",
+    "typescript": "5.4.3",
+    "typescript-eslint": "^7.4.0"
   }
 }

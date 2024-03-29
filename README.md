@@ -1,10 +1,8 @@
-TypeScript React Biome Require Await Lint Demo
+typeScript-eslint require-await Lint Demo
 =================================
 
-Eslint-typescript里有一个我觉得很有用的rule: [no-floating-promises](https://typescript-eslint.io/rules/no-floating-promises/)
-
-目前Biome还不支持
+这是一个需要指定`project: './tsconfig.json'`的rule，用于检查async function前面是否加了 `await`
 
 ```
-pnpm run fix
+pnpm run lint
 ```
